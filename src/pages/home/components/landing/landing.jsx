@@ -10,7 +10,7 @@ function Landing() {
         "Connect your school with Educave",
         "Stay up-to-date with your classes",
         "Automatically connect with your classmates",
-        "Stay up-to-date with your meetings",
+        "Stay up-to-date with your clubs and teams",
     ]
 
     React.useEffect(() => {
