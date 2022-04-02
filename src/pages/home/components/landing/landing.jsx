@@ -8,7 +8,9 @@ function Landing() {
     const [index, setIndex] = React.useState(0);
     const LANDING_TITLES = [
         "Connect your school with Educave",
+        "Stay up-to-date with your classes",
         "Automatically connect with your classmates",
+        "Stay up-to-date with your meetings",
     ]
 
     React.useEffect(() => {
