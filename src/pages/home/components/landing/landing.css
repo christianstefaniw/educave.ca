@@ -1,6 +1,46 @@
+#landing {
+    margin-top: 25vh;
+}
+
 #landing-title {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: bold;
     line-height: 1.5;
+}
+
+@media screen and (max-width: 1340px) {
+    #landing-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1242px) {
+    #landing-title {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    #landing-title {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 1053px) {
+    #landing-title {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    #landing-title {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 433px) {
+    #landing-title {
+        font-size: 1.9rem;
+    }
 }

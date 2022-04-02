@@ -33,3 +33,14 @@ html {
 #main-container {
     max-width: 80% !important;
 }
+
+@media screen and (max-width: 433px) {
+    #main-container {
+        max-width: 95% !important;
+    }
+}
+
+/* BOOTSTRAP */
+.btn-outline-light:active, .btn-outline-light:hover {
+    color: var(--primary-color) !important;
+}
