@@ -16,7 +16,7 @@ function Landing() {
     React.useEffect(() => {
         const intervalId = setInterval(() =>
             setIndex(index => index + 1),
-            3000
+            3350
         );
         return () => clearTimeout(intervalId);
     }, []);
